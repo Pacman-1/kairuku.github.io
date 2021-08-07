@@ -533,3 +533,46 @@ justify-self: flex-end;
         background-color: rgba(0,0,0,0.1);
     }
 } 
+
+/* 4K */
+@media (min-width:3800px) {
+    .showcase::before,.showcase::after {
+        content:'';
+        position: absolute;
+        height: 100px;
+        bottom: -90px;
+        right: 0;
+        left: 0;
+        background: rgb(255, 255, 255);
+        transform: SkewY(-5deg);
+        -webkit-transform: SkewY(-1deg);
+        -moz-transform: SkewY(-1deg);
+        -ms-transform: SkewY(-1deg);
+        -o-transform: SkewY(-1deg);
+    }
+    .social a {
+        font-size: 40px;
+        margin:0 10px;
+    }
+    .footer{
+        height: 40vh;
+        
+    }
+    .footer div{
+        font-size: 40px;
+    }
+
+    .footer .container{
+        max-width: 2000px;
+        font-size:40px;
+    }
+    .docs-head,.docs-main{
+        font-size: 20px;
+    }
+    
+    .container{
+        font-size: 20px;
+    }
+   
+    
+}
