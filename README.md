@@ -14,7 +14,7 @@ Project is created with:
 * CSS : 3
 
 
-![Alt text](/relative/path/to/images/Index Page.png?raw=true "Optional Title")
+![Alt text](/images/Index Page.png?raw=true "Optional Title")
 	
 ## Setup
 To run this project, download it locally then open it in your preferred IDE, open the Command Prompt Terminal:
